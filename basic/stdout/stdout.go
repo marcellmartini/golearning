@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 // Examples of stdout

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/marcelma/golearning/basic/testing/examples2/mymath"
+	"basic/testing/examples2/mymath"
 )
 
 func main() {

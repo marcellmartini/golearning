@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 // example1 unblock c chan with func literal

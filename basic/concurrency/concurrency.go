@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 type person struct {
@@ -72,7 +72,7 @@ func exercise2() {
 	saySomething(&p)
 }
 
-//  exercise2 with race conditions
+// exercise2 with race conditions
 func exercise3() {
 	tools.HeaderOutPut("exercise3")
 
@@ -96,7 +96,7 @@ func exercise3() {
 	fmt.Println("end value:", incrementer)
 }
 
-//  exercise4 without race conditions with mutex
+// exercise4 without race conditions with mutex
 func exercise4() {
 	tools.HeaderOutPut("exercise4")
 
@@ -122,7 +122,7 @@ func exercise4() {
 	fmt.Println("end value:", incrementer)
 }
 
-//  exercise4 without race conditions with atomic
+// exercise4 without race conditions with atomic
 func exercise5() {
 	tools.HeaderOutPut("exercise5")
 

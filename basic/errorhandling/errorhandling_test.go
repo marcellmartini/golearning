@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 // TestSqrt test the sqrt function

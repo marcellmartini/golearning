@@ -3,7 +3,7 @@ package slice
 import (
 	"fmt"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 // Examples of slices

@@ -3,8 +3,9 @@ package testing
 import (
 	"fmt"
 
-	"github.com/marcelma/golearning/basic/testing/dog"
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
+
+	"basic/testing/dog"
 )
 
 type canine struct {

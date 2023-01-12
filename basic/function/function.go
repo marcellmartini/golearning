@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 type person struct {
