@@ -26,4 +26,5 @@ use (
 	./hackerrank
 	./linkedLists
 	./sortAlgorithms
+	./turing
 )
