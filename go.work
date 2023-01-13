@@ -2,6 +2,27 @@ go 1.19
 
 use (
 	./basic
+	./exercism/go
+	./exercism/go/annalyn
+	./exercism/go/birdwatcher
+	./exercism/go/blackjack
+	./exercism/go/booking
+	./exercism/go/cards
+	./exercism/go/cars
+	./exercism/go/chessboard
+	./exercism/go/electionday
+	./exercism/go/greeting
+	./exercism/go/gross
+	./exercism/go/lasagna
+	./exercism/go/lasagnamaster
+	./exercism/go/logs
+	./exercism/go/partyrobot
+	./exercism/go/purchase
+	./exercism/go/space
+	./exercism/go/speed
+	./exercism/go/techpalace
+	./exercism/go/twofer
+	./exercism/go/weather
 	./hackerrank
 	./linkedLists
 	./sortAlgorithms
