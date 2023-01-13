@@ -1,4 +1,4 @@
-package cases
+package countingsort
 
 /*
  * Complete the 'countingSort' function below.

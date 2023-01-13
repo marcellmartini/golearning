@@ -1,4 +1,4 @@
-package cases
+package lonelyinteger
 
 /*
  * Complete the 'lonelyinteger' function below.

@@ -1,10 +1,10 @@
-package main
+package d2
 
 import (
-	"cases/d2/cases"
 	"fmt"
+	"hackerrank/d2/lonelyinteger"
 )
 
 func main() {
-	fmt.Println(cases.Case1())
+	fmt.Println(lonelyinteger.Case1())
 }

@@ -1,4 +1,4 @@
-package cases
+package diagonaldifference
 
 /*
  * Complete the 'diagonalDifference' function below.
@@ -8,14 +8,15 @@ package cases
  */
 
 func diagonalDifference(arr [][]int32) int32 {
-	var d1, d2, result int32 = 0, 0, 0
+	var d1 int32
+	var d2 int32
 
 	for i := 0; i < len(arr[0]); i++ {
 		d1 += arr[i][i]
 		d2 += arr[i][len(arr[0])-1-i]
 	}
 
-	result = d1 - d2
+	result := d1 - d2
 	if result < 0 {
 		return -result
 	}

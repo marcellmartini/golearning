@@ -1,3 +1,3 @@
-module cases
+module hackerrank
 
 go 1.18
