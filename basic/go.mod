@@ -1,3 +1,3 @@
-module github.com/marcelma/golearning/basic
+module basic
 
 go 1.15

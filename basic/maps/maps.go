@@ -3,7 +3,7 @@ package maps
 import (
 	"fmt"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 // Examples of map

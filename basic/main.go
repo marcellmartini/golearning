@@ -1,18 +1,18 @@
 package main
 
 import (
-	"github.com/marcelma/golearning/basic/array"
-	"github.com/marcelma/golearning/basic/concurrency"
-	"github.com/marcelma/golearning/basic/concurrency/channel"
-	"github.com/marcelma/golearning/basic/errorhandling"
-	"github.com/marcelma/golearning/basic/function"
-	"github.com/marcelma/golearning/basic/json"
-	"github.com/marcelma/golearning/basic/maps"
-	"github.com/marcelma/golearning/basic/pointer"
-	"github.com/marcelma/golearning/basic/slice"
-	"github.com/marcelma/golearning/basic/stdout"
-	"github.com/marcelma/golearning/basic/structe"
-	"github.com/marcelma/golearning/basic/testing"
+	"basic/array"
+	"basic/concurrency"
+	"basic/concurrency/channel"
+	"basic/errorhandling"
+	"basic/function"
+	"basic/json"
+	"basic/maps"
+	"basic/pointer"
+	"basic/slice"
+	"basic/stdout"
+	"basic/structe"
+	"basic/testing"
 )
 
 func main() {

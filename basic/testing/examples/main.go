@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/marcelma/golearning/basic/testing/examples/quote"
-	"github.com/marcelma/golearning/basic/testing/examples/word"
+	"basic/testing/examples/quote"
+
+	"basic/testing/examples/word"
 )
 
 func main() {

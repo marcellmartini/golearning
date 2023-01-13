@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/marcelma/golearning/basic/testing/examples/quote"
+	"basic/testing/examples/quote"
 )
 
 func BenchmarkUseCount(b *testing.B) {

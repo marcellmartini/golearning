@@ -6,7 +6,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/marcelma/golearning/basic/tools"
+	"basic/tools"
 )
 
 type user struct {
