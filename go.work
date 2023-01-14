@@ -21,6 +21,7 @@ use (
 	./exercism/go/space
 	./exercism/go/speed
 	./exercism/go/techpalace
+	./exercism/go/thefarm
 	./exercism/go/twofer
 	./exercism/go/weather
 	./hackerrank
