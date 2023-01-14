@@ -25,6 +25,7 @@ use (
 	./exercism/go/weather
 	./hackerrank
 	./linkedLists
+	./nu
 	./sortAlgorithms
 	./turing
 )
