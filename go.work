@@ -11,6 +11,7 @@ use (
 	./exercism/go/cars
 	./exercism/go/chessboard
 	./exercism/go/electionday
+	./exercism/go/elon
 	./exercism/go/greeting
 	./exercism/go/gross
 	./exercism/go/lasagna
