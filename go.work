@@ -15,6 +15,7 @@ use (
 	./exercism/go/elon
 	./exercism/go/greeting
 	./exercism/go/gross
+	./exercism/go/interest-is-interesting
 	./exercism/go/lasagna
 	./exercism/go/lasagnamaster
 	./exercism/go/logs
