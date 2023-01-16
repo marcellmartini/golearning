@@ -19,6 +19,7 @@ use (
 	./exercism/go/logs
 	./exercism/go/partyrobot
 	./exercism/go/purchase
+	./exercism/go/sorting-room
 	./exercism/go/space
 	./exercism/go/speed
 	./exercism/go/techpalace
