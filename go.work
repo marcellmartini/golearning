@@ -9,6 +9,7 @@ use (
 	./exercism/go/booking
 	./exercism/go/cards
 	./exercism/go/cars
+	./exercism/go/census
 	./exercism/go/chessboard
 	./exercism/go/electionday
 	./exercism/go/elon
