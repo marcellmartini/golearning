@@ -13,6 +13,7 @@ use (
 	./exercism/go/chessboard
 	./exercism/go/electionday
 	./exercism/go/elon
+	./exercism/go/expenses
 	./exercism/go/greeting
 	./exercism/go/gross
 	./exercism/go/interest-is-interesting
