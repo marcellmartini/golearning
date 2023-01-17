@@ -3,6 +3,7 @@ go 1.19
 use (
 	./basic
 	./exercism/go
+	./exercism/go/animal-magic
 	./exercism/go/annalyn
 	./exercism/go/birdwatcher
 	./exercism/go/blackjack
