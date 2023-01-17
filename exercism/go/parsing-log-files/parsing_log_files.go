@@ -1,6 +1,7 @@
 package parsinglogfiles
 
 import (
+	"fmt"
 	"regexp"
 )
 
@@ -33,8 +34,9 @@ func TagWithUserName(lines []string) []string {
 	re := regexp.MustCompile(`User *(?P<user>[A-Z][a-z]*[0-9]*)`)
 
 	for _, line := range lines {
-		if len(re.FindStringSubmatch(line)) > 0 {
-			line = "[USR] " + re.FindStringSubmatch(line)[1] + " " + line
+		uf := re.FindStringSubmatch(line)
+		if uf != nil {
+			line = fmt.Sprintf("[USR] %s %s", uf[1], line)
 		}
 		linesTaggd = append(linesTaggd, line)
 	}
