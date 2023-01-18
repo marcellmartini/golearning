@@ -4,22 +4,27 @@ import (
 	"strconv"
 )
 
-func Convert(number int) string {
-	var s string
+type convert struct {
+	factors int
+	sound   string
+}
 
-	if number%3 == 0 {
-		s += "Pling"
-	}
-	if number%5 == 0 {
-		s += "Plang"
-	}
-	if number%7 == 0 {
-		s += "Plong"
+var converts = []convert{
+	{3, "Pling"},
+	{5, "Plang"},
+	{7, "Plong"},
+}
+
+func Convert(number int) (s string) {
+	for k := range converts {
+		if number%converts[k].factors == 0 {
+			s += converts[k].sound
+		}
 	}
 
 	if s == "" {
 		return strconv.Itoa(number)
 	}
 
-	return s
+	return
 }
