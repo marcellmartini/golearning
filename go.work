@@ -17,6 +17,7 @@ use (
 	./exercism/go/expenses
 	./exercism/go/greeting
 	./exercism/go/gross
+	./exercism/go/hamming
 	./exercism/go/interest-is-interesting
 	./exercism/go/lasagna
 	./exercism/go/lasagnamaster
