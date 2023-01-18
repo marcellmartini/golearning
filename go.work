@@ -26,6 +26,7 @@ use (
 	./exercism/go/parsing-log-files
 	./exercism/go/partyrobot
 	./exercism/go/purchase
+	./exercism/go/raindrops
 	./exercism/go/sorting-room
 	./exercism/go/space
 	./exercism/go/speed
