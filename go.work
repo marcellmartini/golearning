@@ -21,6 +21,7 @@ use (
 	./exercism/go/lasagna
 	./exercism/go/lasagnamaster
 	./exercism/go/logs
+	./exercism/go/meteorology
 	./exercism/go/parsing-log-files
 	./exercism/go/partyrobot
 	./exercism/go/purchase
