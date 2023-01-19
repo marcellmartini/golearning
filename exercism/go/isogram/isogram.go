@@ -1,16 +1,15 @@
 package isogram
 
 import (
-	"unicode"
+	"strings"
 )
 
 func IsIsogram(word string) bool {
-	var countRune = map[rune]int{}
+	lw := strings.ToLower(word)
 
-	for _, v := range word {
-		if v != ' ' && v != '-' {
-			lr := unicode.ToLower(v)
-			if countRune[lr] += 1; countRune[lr] > 1 {
+	for _, rune := range lw {
+		if rune != ' ' && rune != '-' {
+			if strings.Count(lw, string(rune)) > 1 {
 				return false
 			}
 		}
