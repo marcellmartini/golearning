@@ -19,6 +19,7 @@ use (
 	./exercism/go/gross
 	./exercism/go/hamming
 	./exercism/go/interest-is-interesting
+	./exercism/go/isogram
 	./exercism/go/lasagna
 	./exercism/go/lasagnamaster
 	./exercism/go/logs
