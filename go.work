@@ -27,6 +27,7 @@ use (
 	./exercism/go/partyrobot
 	./exercism/go/purchase
 	./exercism/go/raindrops
+	./exercism/go/scrabble-score
 	./exercism/go/sorting-room
 	./exercism/go/space
 	./exercism/go/speed
