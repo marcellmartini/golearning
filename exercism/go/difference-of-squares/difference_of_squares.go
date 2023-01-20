@@ -1,23 +1,12 @@
 package diffsquares
 
-import "math"
-
 func SquareOfSum(n int) int {
-	var count int
-
-	for i := 0; i < n; i++ {
-		count += i + 1
-	}
-	return int(math.Pow(float64(count), 2))
+	sum := (n * (n + 1)) / 2
+	return sum * sum
 }
 
 func SumOfSquares(n int) int {
-	var count float64
-
-	for i := 0; i < n; i++ {
-		count += math.Pow(float64(i+1), 2)
-	}
-	return int(count)
+	return (n * (n + 1) * (2*n + 1)) / 6
 }
 
 func Difference(n int) int {
