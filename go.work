@@ -12,6 +12,7 @@ use (
 	./exercism/go/cars
 	./exercism/go/census
 	./exercism/go/chessboard
+	./exercism/go/difference-of-squares
 	./exercism/go/electionday
 	./exercism/go/elon
 	./exercism/go/expenses
