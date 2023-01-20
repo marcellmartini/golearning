@@ -35,6 +35,7 @@ use (
 	./exercism/go/speed
 	./exercism/go/techpalace
 	./exercism/go/thefarm
+	./exercism/go/twelve-days
 	./exercism/go/twofer
 	./exercism/go/weather
 	./hackerrank
