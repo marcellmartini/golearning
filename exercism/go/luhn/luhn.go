@@ -1,14 +1,12 @@
 package luhn
 
-import (
-	"strings"
-)
-
 func Valid(id string) bool {
 	var sum, pos int
-	id = strings.ReplaceAll(id, " ", "")
+	for i := len(id) - 1; i >= 0; i-- {
+		if id[i] == ' ' {
+			continue
+		}
 
-	for i := len(id) - 1; i >= 0; i, pos = i-1, pos+1 {
 		if id[i] < '0' || id[i] > '9' {
 			return false
 		}
@@ -23,6 +21,7 @@ func Valid(id string) bool {
 			}
 		}
 		sum += tempInt
+		pos++
 	}
 
 	return pos > 1 && (sum%10) == 0
