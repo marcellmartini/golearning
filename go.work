@@ -16,6 +16,7 @@ use (
 	./exercism/go/electionday
 	./exercism/go/elon
 	./exercism/go/expenses
+	./exercism/go/grains
 	./exercism/go/greeting
 	./exercism/go/gross
 	./exercism/go/hamming
