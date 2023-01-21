@@ -1,31 +1,29 @@
 package luhn
 
 import (
-	"strconv"
 	"strings"
 )
 
 func Valid(id string) bool {
-	var op2 int
+	var sum, pos int
 	id = strings.ReplaceAll(id, " ", "")
-	if len(id) <= 1 {
-		return false
-	}
-	j := 0
-	for i := len(id) - 1; i >= 0; i-- {
-		tempInt, err := strconv.Atoi(string(id[i]))
-		if err != nil {
+
+	for i := len(id) - 1; i >= 0; i, pos = i-1, pos+1 {
+		if id[i] < '0' || id[i] > '9' {
 			return false
 		}
-		if j%2 != 0 {
+
+		tempInt := int(id[i] - '0')
+
+		if pos%2 != 0 {
 			if tempInt*2 > 9 {
 				tempInt = tempInt*2 - 9
 			} else {
 				tempInt = tempInt * 2
 			}
 		}
-		op2 += tempInt
-		j++
+		sum += tempInt
 	}
-	return (op2 % 10) == 0
+
+	return pos > 1 && (sum%10) == 0
 }
