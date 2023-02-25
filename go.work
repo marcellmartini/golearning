@@ -2,6 +2,7 @@ go 1.19
 
 use (
 	./basic
+	./basic/concurrency/pingpong
 	./exercism/go
 	./exercism/go/animal-magic
 	./exercism/go/annalyn
