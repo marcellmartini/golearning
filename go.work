@@ -43,6 +43,7 @@ use (
 	./fibonacci
 	./hackerrank
 	./linkedLists
+	./numberinfull
 	./sortAlgorithms
 	./turing
 )
