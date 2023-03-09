@@ -41,6 +41,7 @@ use (
 	./exercism/go/twofer
 	./exercism/go/weather
 	./hackerrank
+	./http
 	./linkedLists
 	./sortAlgorithms
 	./turing
