@@ -13,7 +13,8 @@ func main() {
 	sl.InsertEnd(3)
 	sl.InsertEnd(4)
 
-	sl.Print()
+	fmt.Print(sl.String())
+	fmt.Println("Len:", sl.Len())
 
 	fmt.Println("-----------------")
 	sl = singly.New()
@@ -23,5 +24,6 @@ func main() {
 	sl.InsertFront(3)
 	sl.InsertFront(4)
 
-	sl.Print()
+	fmt.Print(sl.String())
+	fmt.Println("Len:", sl.Len())
 }

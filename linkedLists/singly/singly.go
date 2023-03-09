@@ -1,18 +1,21 @@
 package singly
 
-import "fmt"
+import (
+	"fmt"
+)
+
+const (
+	end   = "end"
+	front = "front"
+)
 
 type Node struct {
 	data int32
 	next *Node
 }
 
-func (e *Node) Next() *Node {
-	if e.next != nil {
-		return e.next
-	}
-
-	return nil
+func (n *Node) Next() *Node {
+	return n.next
 }
 
 type List struct {
@@ -24,36 +27,37 @@ func New() *List {
 	return new(List)
 }
 
-func (l *List) Print() {
+func (l *List) String() string {
 	if l.head == nil {
-		fmt.Println("No nodes in list")
+		return fmt.Sprintln("No nodes in list")
 	}
 
 	ptr := l.head
+	var output string
 
 	for ptr != nil {
-		fmt.Println("Node: ", ptr.data)
+		output += fmt.Sprintln("Node:", ptr.data)
 		ptr = ptr.Next()
 	}
+
+	return output
 }
 
-func (l *List) Len() {
-	fmt.Println(l.len)
+func (l *List) Len() int {
+	return l.len
 }
 
-func (l *List) Insert(value int32, location string) {
+func (l *List) insert(value int32, location string) {
 	n := new(Node)
 	n.data = value
 
-	if l.head == nil {
+	switch {
+	case l.head == nil:
 		l.head = n
 		l.len++
-
 		return
-	}
 
-	switch {
-	case location == "end":
+	case location == end:
 		ptr := l.head
 
 		for ptr.Next() != nil {
@@ -61,18 +65,19 @@ func (l *List) Insert(value int32, location string) {
 		}
 
 		ptr.next = n
-		l.len++
 
-	case location == "front":
+	case location == front:
 		n.next = l.head
 		l.head = n
 	}
+
+	l.len++
 }
 
 func (l *List) InsertEnd(value int32) {
-	l.Insert(value, "end")
+	l.insert(value, end)
 }
 
 func (l *List) InsertFront(value int32) {
-	l.Insert(value, "front")
+	l.insert(value, front)
 }
