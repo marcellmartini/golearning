@@ -40,6 +40,7 @@ use (
 	./exercism/go/twelve-days
 	./exercism/go/twofer
 	./exercism/go/weather
+	./fibonacci
 	./hackerrank
 	./linkedLists
 	./sortAlgorithms
