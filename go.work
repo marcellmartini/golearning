@@ -42,6 +42,7 @@ use (
 	./exercism/go/weather
 	./hackerrank
 	./linkedLists
+	./numberinfull
 	./sortAlgorithms
 	./turing
 )
