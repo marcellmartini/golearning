@@ -2,6 +2,7 @@ go 1.19
 
 use (
 	./basic
+	./basic/testing/split
 	./changeMultiples35
 	./exercism/go
 	./exercism/go/animal-magic
