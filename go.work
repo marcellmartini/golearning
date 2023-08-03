@@ -43,8 +43,10 @@ use (
 	./exercism/go/weather
 	./fibonacci
 	./hackerrank
+	./html
 	./linkedLists
 	./numberinfull
 	./sortAlgorithms
+	./tests
 	./turing
 )
