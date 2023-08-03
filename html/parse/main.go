@@ -1,4 +1,4 @@
-package main
+package parse
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"golang.org/x/net/html"
 )
 
-func main() {
+func Parse() {
 	// Send an HTTP GET request to the example.com web page
 	resp, err := http.Get("https://www.example.com")
 	if err != nil {
